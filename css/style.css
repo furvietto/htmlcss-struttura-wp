@@ -25,18 +25,18 @@ main section:first-child {
     margin-bottom: 20px;
 }
 
-.table {
+main section:last-child {
     background-color: #0086FF;
     margin-bottom: 10px;
 }
 
-.table::after {
+main section:last-child::after {
     content: '';
     display: table;
     clear: both;
 }
 
-.header_section {
+section div:first-of-type {
     background-color:#ABCFE7 ;
     height: 60px;
 }
@@ -60,12 +60,12 @@ main section:first-child {
     margin: 15px 0 15px 15px;
 }
 
-.float div {
+div.float div {
     float: left;
     height: 300px;
 }
 
-.purple {
+footer div {
     height: 100px;
     background-color: #8801FE;
 }

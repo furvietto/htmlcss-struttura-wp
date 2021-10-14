@@ -27,10 +27,13 @@ main section:first-child {
 
 .table {
     background-color: #0086FF;
+    margin-bottom: 10px;
+}
+
+.table::after {
     content: '';
     display: table;
     clear: both;
-    width: 100%;
 }
 
 .header_section {
@@ -60,5 +63,10 @@ main section:first-child {
 .float div {
     float: left;
     height: 300px;
+}
+
+.purple {
+    height: 100px;
+    background-color: #8801FE;
 }
 

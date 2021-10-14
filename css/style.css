@@ -24,3 +24,41 @@ main section:first-child {
     background-color: #E1D67A;
     margin-bottom: 20px;
 }
+
+.table {
+    background-color: #0086FF;
+    content: '';
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.header_section {
+    background-color:#ABCFE7 ;
+    height: 60px;
+}
+
+.first {
+    width: 25%;
+    background-color: #ABCFE7;
+    margin: 15px 15px 15px 0;
+}
+
+.second {
+    width: calc(50% - 30px);
+    background-color: #ABCFE7;
+    margin: 15px 0;
+
+}
+
+.third {
+    width: 25%;
+    background-color: #ABCFE7;
+    margin: 15px 0 15px 15px;
+}
+
+.float div {
+    float: left;
+    height: 300px;
+}
+
